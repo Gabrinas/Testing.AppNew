@@ -7,6 +7,21 @@
     
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
     <style> 
+/*Responsiveness of the screen to different sizes.*/
+@media only screen and (max-width: 640px){
+  body{
+    background-color: lightseagreen;}
+  }
+
+*@media only screen and (min-width: 641px) and (max-width: 1007px){
+  body{
+    background-color: lightseagreen;}
+}
+
+*@media screen and (min-width: 1008px){
+  body{
+    background-color: lightseagreen;}
+}
     a {
   color: #337ab7;
 }
